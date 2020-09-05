@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -15,6 +15,7 @@
 		AA098E3A2503794500C94B7B /* Hitch_io.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = AA098E382503794500C94B7B /* Hitch_io.xcdatamodeld */; };
 		AA098E3C2503794C00C94B7B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AA098E3B2503794C00C94B7B /* Assets.xcassets */; };
 		AA098E3F2503794C00C94B7B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AA098E3D2503794C00C94B7B /* LaunchScreen.storyboard */; };
+		AA5D0A2A2503B56D00BAA219 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = AA5D0A292503B56C00BAA219 /* GoogleService-Info.plist */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +29,7 @@
 		AA098E3B2503794C00C94B7B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		AA098E3E2503794C00C94B7B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		AA098E402503794C00C94B7B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AA5D0A292503B56C00BAA219 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		B798C88FBE87EE05401CC5DD /* Pods-Hitch.io.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Hitch.io.release.xcconfig"; path = "Target Support Files/Pods-Hitch.io/Pods-Hitch.io.release.xcconfig"; sourceTree = "<group>"; };
 		BDC745E9EC18523BEACD68E7 /* Pods-Hitch.io.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Hitch.io.debug.xcconfig"; path = "Target Support Files/Pods-Hitch.io/Pods-Hitch.io.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -79,6 +81,7 @@
 				AA098E352503794500C94B7B /* Main.storyboard */,
 				AA098E3B2503794C00C94B7B /* Assets.xcassets */,
 				AA098E3D2503794C00C94B7B /* LaunchScreen.storyboard */,
+				AA5D0A292503B56C00BAA219 /* GoogleService-Info.plist */,
 				AA098E402503794C00C94B7B /* Info.plist */,
 				AA098E382503794500C94B7B /* Hitch_io.xcdatamodeld */,
 			);
@@ -91,7 +94,6 @@
 				BDC745E9EC18523BEACD68E7 /* Pods-Hitch.io.debug.xcconfig */,
 				B798C88FBE87EE05401CC5DD /* Pods-Hitch.io.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -156,6 +158,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				AA098E3F2503794C00C94B7B /* LaunchScreen.storyboard in Resources */,
+				AA5D0A2A2503B56D00BAA219 /* GoogleService-Info.plist in Resources */,
 				AA098E3C2503794C00C94B7B /* Assets.xcassets in Resources */,
 				AA098E372503794500C94B7B /* Main.storyboard in Resources */,
 			);

@@ -8,5 +8,7 @@ target 'Hitch.io' do
   # Pods for Hitch.io
 
   pod 'IQKeyboardManagerSwift'
-
+  pod 'Firebase/Auth'
+  pod 'Firebase/Firestore'
+  
 end
