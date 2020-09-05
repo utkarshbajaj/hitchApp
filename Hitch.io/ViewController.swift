@@ -23,6 +23,11 @@ class ViewController: UIViewController {
         passwordTf.borderStyle = UITextField.BorderStyle.roundedRect
         
     }
+    
+    @IBAction func registerPressed(_ sender: UIButton) {
+        passwordTf.endEditing(true)
+    }
+    
 
 
 }

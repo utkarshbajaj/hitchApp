@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		48108FED5651A084E6720C8F /* Pods_Hitch_io.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8FC724EDF2851816A5FA7230 /* Pods_Hitch_io.framework */; };
 		AA098E302503794500C94B7B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA098E2F2503794500C94B7B /* AppDelegate.swift */; };
 		AA098E322503794500C94B7B /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA098E312503794500C94B7B /* SceneDelegate.swift */; };
 		AA098E342503794500C94B7B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA098E332503794500C94B7B /* ViewController.swift */; };
@@ -17,6 +18,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		8FC724EDF2851816A5FA7230 /* Pods_Hitch_io.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Hitch_io.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		AA098E2C2503794500C94B7B /* Hitch.io.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Hitch.io.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		AA098E2F2503794500C94B7B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		AA098E312503794500C94B7B /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -26,6 +28,8 @@
 		AA098E3B2503794C00C94B7B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		AA098E3E2503794C00C94B7B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		AA098E402503794C00C94B7B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B798C88FBE87EE05401CC5DD /* Pods-Hitch.io.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Hitch.io.release.xcconfig"; path = "Target Support Files/Pods-Hitch.io/Pods-Hitch.io.release.xcconfig"; sourceTree = "<group>"; };
+		BDC745E9EC18523BEACD68E7 /* Pods-Hitch.io.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Hitch.io.debug.xcconfig"; path = "Target Support Files/Pods-Hitch.io/Pods-Hitch.io.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -33,17 +37,28 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				48108FED5651A084E6720C8F /* Pods_Hitch_io.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		207EE67585A531BE000AE88F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				8FC724EDF2851816A5FA7230 /* Pods_Hitch_io.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		AA098E232503794500C94B7B = {
 			isa = PBXGroup;
 			children = (
 				AA098E2E2503794500C94B7B /* Hitch.io */,
 				AA098E2D2503794500C94B7B /* Products */,
+				E1DC2F6973672DD657AFE5D3 /* Pods */,
+				207EE67585A531BE000AE88F /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -70,6 +85,16 @@
 			path = Hitch.io;
 			sourceTree = "<group>";
 		};
+		E1DC2F6973672DD657AFE5D3 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				BDC745E9EC18523BEACD68E7 /* Pods-Hitch.io.debug.xcconfig */,
+				B798C88FBE87EE05401CC5DD /* Pods-Hitch.io.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -77,9 +102,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = AA098E432503794C00C94B7B /* Build configuration list for PBXNativeTarget "Hitch.io" */;
 			buildPhases = (
+				F80B3CEB61A4239391628345 /* [CP] Check Pods Manifest.lock */,
 				AA098E282503794500C94B7B /* Sources */,
 				AA098E292503794500C94B7B /* Frameworks */,
 				AA098E2A2503794500C94B7B /* Resources */,
+				64EE9224DC4B3298AADB7059 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -135,6 +162,48 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		64EE9224DC4B3298AADB7059 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Hitch.io/Pods-Hitch.io-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Hitch.io/Pods-Hitch.io-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Hitch.io/Pods-Hitch.io-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F80B3CEB61A4239391628345 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Hitch.io-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		AA098E282503794500C94B7B /* Sources */ = {
@@ -286,6 +355,7 @@
 		};
 		AA098E442503794C00C94B7B /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = BDC745E9EC18523BEACD68E7 /* Pods-Hitch.io.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -303,6 +373,7 @@
 		};
 		AA098E452503794C00C94B7B /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B798C88FBE87EE05401CC5DD /* Pods-Hitch.io.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
